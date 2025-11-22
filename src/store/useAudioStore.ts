@@ -63,13 +63,13 @@ export const useAudioStore = create<AudioState>((set) => ({
   timeSignature: [4, 4],
   isMetronomeOn: false,
   
-  sensitivity: 0.001,  // Ultra-sensitive threshold for maximum detection rate
+  sensitivity: 0.005,  // Balanced sensitivity for accurate detection
   inputDeviceId: 'default',
   outputDeviceId: 'default',
   showSafeNotes: true,
   fretCount: 17,
   noteLabelMode: 'combined',
-  noteLingeringTime: 2000,
+  noteLingeringTime: 700,
 
   setIsPlaying: (isPlaying) => set({ isPlaying }),
   setBpm: (bpm) => set({ bpm }),

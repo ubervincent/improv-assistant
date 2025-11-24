@@ -2,7 +2,7 @@
 
 A real-time guitar improvisation practice tool built with Next.js. It listens to your playing, visualizes notes on a fretboard, and helps you practice over custom chord progressions.
 
-![Improv Assistant Screenshot](https://github.com/ubervincent/improv-assistant/raw/master/public/screenshot.png)
+Deployed at: https://improv-assistant-6k36.vercel.app/
 
 ## Features
 
